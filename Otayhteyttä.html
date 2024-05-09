@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>Ota yhteyttä</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="Tyyli1.css">
+
+</head>
+
+<body>
+
+    <nav>
+        <ul>
+           
+            <li><a href="index.htm">Etusivu</a></li>
+            <li><a href="CV.html">CV</a></li>
+            <li><a href="Tietoaminusta.html">Tietoa minusta</a></li>
+            <li><a class="active" href="Otayhteyttä.html">Ota yhteyttä</a></li>
+          </ul>
+    </nav>
+
+
+    <header class="Yhteys">
+        <h1>Ota yhteyttä</h1>
+    </header>
+
+    <section class="keskitetty">
+      <p> Olen helposti tavoitettavissa, ota rohkeasti yhteyttä!</p>
+      <p>Sähköposti: veera.kontinen@hotmail.com</p>
+      <p>Puhelin: 0440550194</p>
+      <a href="https://fi.linkedin.com/in/veera-kontinen-1513592b1" target="_blank">LinkedIn profiili</a>
+      <p>Vaihtoehtoisesti voit ottaa yhteyttä alla olevalla lomakkeella.</p>
+  </section>
+
+
+  <div class="kokolomake">
+    <form action="action-page.php" method="post">
+      <div class="kellu">
+        <div class="leveys-25">
+          <label class="flomake" for="enimi"> Etunimi </label>
+        </div>
+        <div class="leveys-75">
+          <input class="flomake" type="text" id="enimi" name="etunimi" placeholder="Etunimesi..">
+        </div>
+      </div>
+      <div class="kellu">
+        <div class="leveys-25">
+          <label class="flomake" for="snimi"> Sukunimi </label>
+        </div>
+        <div class="leveys-75">
+          <input class="flomake" type="text" id="snimi" name="sukunimi" placeholder="Sukunimesi..">
+        </div>
+      </div>
+      <div class="kellu">
+        <div class="leveys-25">
+          <label class="flomake" for="sposti"> Sähköposti </label>
+        </div>
+        <div class="leveys-75">
+          <input class="flomake" type="email" id="sposti" name="sahkoposti" placeholder="Sähköpostiosoitteesi..">
+        </div>
+      </div>
+      <div class="kellu">
+        <div class="leveys-25">
+          <label class="flomake" for="viesti"> Viesti </label>
+        </div>
+        <div class="leveys-75">
+          <textarea class="flomake viestikentta" id="viesti" name="viesti" placeholder="Kirjoita viesti.."></textarea>
+        </div>
+      </div>
+      <div class="kellu">
+        <input class="flomake" type="submit" value="Lähetä">
+      </div>
+    </form>
+  </div>
+  
+  </body>
+  </html>
+
